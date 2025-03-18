@@ -67,6 +67,9 @@ public class BoundaryEmmenager {
 		if(potionFaible>potionForte) {
 			System.out.println("Attention Druide,vous vous êtres trompé entre le minimum et le maximum");
 		}
+		else {
+			controlEmmenager.ajouterDruide(nomVisiteur, force, potionFaible, potionForte);			
+		}
 	}
 	
 	
