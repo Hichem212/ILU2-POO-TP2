@@ -28,7 +28,7 @@ public class ControlPrendreEtal {
 			System.out.println("Je suis désolé " + nomVendeur +" mais il faut être un habitant de notre village pour commercer ici");
 		}
 		else {
-			System.out.println("Bonjour" + nomVendeur + " ,je vais regarder si je peux vous trouver un étal ");
+			System.out.println("Bonjour " + nomVendeur + " ,je vais regarder si je peux vous trouver un étal ");
 			Gaulois vendeur = village.trouverHabitant(nomVendeur);
 		    numeroEtal = village.installerVendeur(vendeur, produit, nbProduit);
 		}
