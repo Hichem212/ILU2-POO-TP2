@@ -35,6 +35,7 @@ public class BoundaryEmmenager {
 					
 					int force = 0;
 					force = Clavier.entrerEntier(question2.toString());
+					controlEmmenager.ajouterGaulois(nomVisiteur, force);
 					
 				
 					break;
